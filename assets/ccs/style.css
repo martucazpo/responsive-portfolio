@@ -1,0 +1,156 @@
+header {
+    width: 200px;
+    padding: 35px;
+    border-style: solid;
+    border-color: #4aaaa5; 
+    border-width: 2px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    background-color: #4aaaa5;
+}
+
+#photo {
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+    margin-top: 4px;
+    margin-right: 20px;
+    margin-bottom: 8px;
+    margin-left: 8
+    px;
+    padding: 1px;
+    border: color #4aaaa5;
+    border: solid;
+    border-width: 2px;
+    float: left;
+}
+
+body {
+    border: 2px;
+    border-style: solid;
+    border-color: #dddddd;
+    background-color: #ffffff;
+    background-image: url("interlaced.png");
+}
+
+h1, h2, h3 {
+    font-size: 35px;
+    margin-top: 10px;
+    width: 100%;
+    color: #4aaaa5;
+    padding: 20px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #666666;
+    border-right: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    background-color: #ffffff;
+    clear: both;
+}
+
+.section {
+    padding: 20px;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+p {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #4aaaa5;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #4aaaa5;
+}
+
+.container {
+    width:220px;
+    position: relative;
+    padding: 20px;
+}
+
+.container img {
+    width: 200px;
+    height: auto;
+}
+
+.container .btn {
+    position: absolute;
+    top: 80%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%,-50%);
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.container .btn:hover {
+    background-color: black;
+}
+
+.container_other {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+#email {
+    font-size: 30px;
+    padding: 30px;
+}
+
+@media screen and (max-width:980px){
+    body{}
+}
+
+@media screen and (max-width:768px){
+    header {
+        font-size:24px;
+    }
+    h1,h2,h3 {
+        font-size:24px;
+    }
+    p{
+        font-size:20px;
+    }
+}
+
+@media screen and (max-width:640px) {
+    header {
+        position:static;
+        font-size:20px;
+    }
+    h1,h2,h3 {
+        font-size:20px;
+    }
+    p {
+        font-size:18px;
+    }
+
+}
